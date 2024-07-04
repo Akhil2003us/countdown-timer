@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <p>Countdown timer that counts down from a set time to zero,<br>with options to stop, reset, and restart the timer.</p>
+
+    <div class="countdown">
+      <h1>Countdown Timer</h1>
+      <div id="timer">00:00:00</div>
+      <div class="buttons">
+        <button id="startButton" onclick="startTimer()">Start</button>
+        <button id="stopButton" onclick="stopTimer()">Stop</button>
+        <button id="resetButton" onclick="resetTimer()">Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="single-footer-widget">
+      <div class="footer-copyright">
+        <p>&copy; Designed and developed by Akhil Anand</p>
+      </div>
+      <div class="hm-foot-email">
+        <div class="foot-email-box">
+          <h5>For updates, please enter your email:</h5>
+          <form action="#" method="post"> <!-- Replace action="#" with your form handler -->
+            <input type="email" class="form-control" placeholder="abcd@abcd.com">
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        <div class="foot-email-subscribe">
+          <span><i class="fas fa-arrow-right"></i></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

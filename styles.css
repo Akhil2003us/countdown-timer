@@ -1,0 +1,137 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+.countdown {
+  text-align: center;
+  background-color: #41d741;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.countdown h1 {
+  font-size: 28px;
+  color: #333;
+}
+
+#timer {
+  font-size: 48px;
+  font-weight: bold;
+  color: #444;
+  margin: 20px 0;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.single-footer-widget {
+  text-align: center;
+}
+
+.footer-copyright {
+  margin-bottom: 10px;
+}
+
+.hm-foot-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot-email-box {
+  margin-right: 20px;
+}
+
+.foot-email-box h5 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.foot-email-box input[type="email"] {
+  width: 200px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.foot-email-box input[type="submit"] {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.foot-email-box input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.foot-email-subscribe {
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+.foot-email-subscribe span {
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+  .buttons button {
+    font-size: 0.8em;
+  }
+  
+  .foot-email-box input[type="email"] {
+    width: 150px;
+  }
+}
